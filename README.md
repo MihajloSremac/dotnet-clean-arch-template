@@ -36,6 +36,7 @@ This repo includes a `dotnet new` template. Clone it once, install it locally, a
 
 ```bash
 git clone https://github.com/MihajloSremac/dotnet-clean-arch-template.git
+cd .\dotnet-clean-arch-template\
 dotnet new install ./CleanArch-BE
 ```
 
