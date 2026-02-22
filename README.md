@@ -102,14 +102,6 @@ dotnet ef database update --project CleanArch.Infrastructure --startup-project C
 dotnet run --project CleanArch.Api
 ```
 
-Use [Postman](https://www.postman.com) or any HTTP client to test the endpoints. For protected routes, get a token from `/api/auth/login` and pass it as a `Bearer` token in the `Authorization` header.
-
-**Auth** — `POST /api/auth/register` · `POST /api/auth/login`
-
-**Users** — `POST /api/users` · `PUT /api/users` · `GET /api/users/{id}` · `GET /api/users/by-email?email=`
-
-Register and login are the only public endpoints. 
-
 ---
 
 ## Notes
