@@ -106,5 +106,5 @@ dotnet run --project CleanArch.Api
 
 ## Notes
 
-- CORS is fully open by default — lock it down to your frontend URL before going to production
+- CORS is fully open by default — lock it down to your frontend URL
 - `appsettings.json` only holds structure and safe placeholders, real values go in user secrets locally and environment variables in production
