@@ -21,7 +21,7 @@ public static class DependencyInjection
         });
 
         //Services
-        services.AddScoped<ITokenService, TokenService>();
+        services.AddSingleton<ITokenService, TokenService>();
 
         //Repositories
         services.AddScoped<IUserRepository, UserRepository>();
